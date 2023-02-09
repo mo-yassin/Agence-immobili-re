@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    background-color: #070606;
+}
+li {
+    list-style: none;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+.text, li {
+    text-shadow: black 1px 0 10px;
+}
+#deposeButton {
+    background-color: #E5C7AB;
+}
+main, #bg {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card {
+    margin: 1rem;
+    max-width: 23% !important;
+}
